@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Memory</string>
+    <string name="memory_card_slot">Memory Karte</string>
+    <string name="distribute_cards">START</string>
+    <string name="pairs_found">Gefundene Paare:</string>
+    <string name="won">ALLE GEFUNDEN! Benötigte Versuche: %d</string>
+
+    <string name="fireworks">&#127942;</string>
+</resources>
