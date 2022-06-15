@@ -19,7 +19,9 @@ class MemoryLogic {
 
         // gehe alle Karten durch und verdecke verdecke jede Karte
         // todo Schreibe hier deinen Code
-
+        for (i in 0..11) {
+            hideCard()
+        }
     }
 
     /**
