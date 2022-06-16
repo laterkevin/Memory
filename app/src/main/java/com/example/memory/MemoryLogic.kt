@@ -19,7 +19,7 @@ class MemoryLogic {
 
         // gehe alle Karten durch und verdecke verdecke jede Karte
         // todo Schreibe hier deinen Code
-        for (i in 0..11) {
+        for (i in 0..11) run {
             hideCard(cards[i])
         }
     }
@@ -33,13 +33,14 @@ class MemoryLogic {
         // gehe alle Spalten durch
         // todo Schreibe hier deinen Code
         for (i in 0..3) {
-            placeCards(i,i)
-
+            placeCards(i, i)
+            delay(50)
             for (e in 0..5) {
-                placeCards(e,e)
+                placeCards(e, e)
+                // verzögere Ablauf um 50ms
+                delay(50)
             }
         }
-
         // gehe alle Zeilen durch
         // todo Schreibe hier deinen Code
 
